@@ -86,7 +86,7 @@ def detect_objects(image_path):
     #plt.savefig('output/{}'.format(image_path), dpi = 300)
     #plt.close(fig)
 
-TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'image{}.jpg'.format(i)) for i in range(12, 13) ]
+TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'image{}.jpg'.format(i)) for i in range(3, 4) ]
 #image_path = os.path.join('test_images/image3.jpg')
 
 # Load model into memory
